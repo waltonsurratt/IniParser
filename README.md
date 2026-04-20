@@ -1,4 +1,4 @@
-# IniFileParser
+# IniParser
 This a new project for a native Windows library (DLL) built using only the .NET 10.0 standard/core. It's purpose is to read & write INI files stored on any computer. It also acts as a drop-in library to parse INI files inside other projects and applications. The latest build supports .NET 10.0 standard/core and C# version 8.0.
 
 This is a clean, integration‑ready INI parser design and implementation built only with .NET Core libraries (no NuGet, no Win32 P/Invoke). The design also operates at the line-level allowing for true preservation of comments (_on the same line and in the same order as loaded into memory_).
