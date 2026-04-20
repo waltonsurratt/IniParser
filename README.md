@@ -37,3 +37,16 @@ In the section called "Network", create a new Key AND set the value all in one l
 Save the INI file to the system
 
 `ini.Save("C:\\tmp\\settings.ini");`
+
+# Project Structure
+```
+IniParser/
+ ├─ Document.cs
+ ├─ Section.cs
+ ├─ Key.cs
+ ├─ Lines/
+ │   ├─ IniLine.cs
+ │   ├─ RawLine.cs
+ │   ├─ SectionLine.cs
+ │   └─ KeyLine.cs
+```
