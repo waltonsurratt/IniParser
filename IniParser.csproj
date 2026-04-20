@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>IniParser</Title>
+    <Authors>Walton Surratt</Authors>
+    <Company>Surratt Solutions</Company>
+    <Description>An INI file parser meant to be used as a drop-in library (DLL) for other projects and applications.</Description>
+    <Copyright>Copyright ©  2026</Copyright>
+  </PropertyGroup>
+
+</Project>
