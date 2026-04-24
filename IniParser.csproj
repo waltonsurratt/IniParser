@@ -8,7 +8,7 @@
     <Authors>Walton Surratt</Authors>
     <Company>Surratt Solutions</Company>
     <Description>An INI file parser meant to be used as a drop-in library (DLL) for other projects and applications.</Description>
-    <Copyright>Copyright ©  2026</Copyright>
+    <Copyright>Copyright © 2026 Surratt Solutions</Copyright>
   </PropertyGroup>
 
 </Project>
