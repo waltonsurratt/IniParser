@@ -8,7 +8,25 @@
     <Authors>Walton Surratt</Authors>
     <Company>Surratt Solutions</Company>
     <Description>An INI file parser meant to be used as a drop-in library (DLL) for other projects and applications.</Description>
-    <Copyright>Copyright © 2026 Surratt Solutions</Copyright>
+    <Copyright>Copyright © 2026 Walton Surratt</Copyright>
+    <ApplicationIcon>ini_file_parsing.ico</ApplicationIcon>
+    <PackageIcon>ini_file_parsing.ico</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ini_file_parsing.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ini_file_parsing.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
